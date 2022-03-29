@@ -18,9 +18,9 @@
     <main class="row">
             <div class="col-4">
                 <h2>Search for a City:</h2>
-                <form class="city-input">
-                    <input type="text" placeholder="Enter Location Here" class="inputValue">
-                    <input type="submit" value="submit" class="submitButton">
+                <form class="cityInputEl">
+                    <input type="text" placeholder="Enter Location Here" class="inputValue" autofocus="true">
+                    <button class="submitButton" type="submit">Search</button>
                 </form>
                 <!-- search results -->
                 <div>
@@ -31,14 +31,13 @@
             </div>
             <div class="col-8">
                 <!-- current day forecast -->
-                <div>
-                    <h2>
-
-                    </h2>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
+                <div class="dailyWeatherDisplay">
+                    <h2 class="searchName"></h2>
+                    <img alt="Weather Icon" class="weatherIconDisplay"/>
+                    <p class="temp"></p>
+                    <p class="windCurrent"></p>
+                    <p class="humidity"></p>
+                    <p class="uvIndex"></p>
                 </div>
                 <!-- five day forecast -->
                 <div>
