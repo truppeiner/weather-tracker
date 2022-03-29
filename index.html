@@ -10,21 +10,23 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1>Weather Dashboard</h1>
+    <header class="navbar bg-primary text-white text-center">
+        <h1 class="navHeader">Weather Dashboard</h1>
     </header>
     <!-- end header -->
     <!-- begin main -->
     <main class="row">
-            <div class="col-4">
-                <h2>Search for a City:</h2>
-                <form class="cityInputEl">
-                    <input type="text" placeholder="Enter Location Here" class="inputValue" autofocus="true">
-                    <button class="submitButton" type="submit">Search</button>
+            <div class="col-4 card searchBody">
+                <h3 class="card-header">Search for a City:</h3>
+                <form class="cityInputEl card-body row">
+                    <div class="form-group">
+                        <input type="text" placeholder="Enter Location Here" class="inputValue col-12 form-control" autofocus="true">
+                        <button class="submitButton btn btn-primary col-12" type="submit">Search</button>
+                    </div>
                 </form>
                 <!-- search results -->
-                <div>
-                    <ul>
+                <div class="cityNameLog">
+                    <ul class="listNameLogLi">
                         <li>Austin</li>
                     </ul>
                 </div>
@@ -47,32 +49,32 @@
                     <div class="row">
                         <div class="col">
                             <!-- dynamically generate forecast -->
-                            <div>
-
+                            <div class="fiveDay1">
+                                1
                             </div>
                         </div>
                         <div class="col">
                             <!-- dynamically generate forecast -->
-                            <div>
-
+                            <div class="fiveDay1">
+                                2
                             </div>
                         </div>
                         <div class="col">
                             <!-- dynamically generate forecast -->
-                            <div>
-                                
+                            <div class="fiveDay1">
+                                3
                             </div>
                         </div>
                         <div class="col">
                             <!-- dynamically generate forecast -->
-                            <div>
-                                
+                            <div class="fiveDay1">
+                                4
                             </div>
                         </div>
                         <div class="col">
                             <!-- dynamically generate forecast -->
-                            <div>
-                                
+                            <div class="fiveDay1">
+                                5
                             </div>
                         </div>
                     </div>

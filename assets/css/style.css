@@ -1,0 +1,18 @@
+/* NAVBAR STYLING */
+
+.navHeader {
+    justify-content: center;
+    align-items: center;
+    margin-left: 425px;
+    
+}
+/* END NAVBAR STYLING */
+
+
+/* FORM SUBMISSION STYLING */
+
+
+.submitButton {
+    margin-top: 10px !important;
+}
+/* END FORM SUBMISSION STYLING */
